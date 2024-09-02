@@ -28,17 +28,17 @@ function validarNombre(event) {
     let correoValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo);
 
     if (nombreValido == false) {
-        alert("Hay algo mal en el nombre");
+        alert("Complete el campo nombre, recuerde que solo se acepta letras");
         return;
     }
 
     if (numeroValido == false) {
-        alert("El número debe tener 3 dígitos.");
+        alert("Complete el campo Número, recuerde que el número debe ser de 3 dígitos.");
         return;
     }
 
     if (correoValido == false) {
-        alert("El correo electrónico no es válido.");
+        alert("El correo electrónico no es válido, revise.");
         return;
     }
 
